@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  anaconda:
+    build:
+      context: ./
+      dockerfile: ./DockerFile
+    ports:
+      - 8888:8888
+    network_mode: host
