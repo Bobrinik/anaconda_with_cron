@@ -1,0 +1,1 @@
+*/2 * * * * /opt/notebooks/cron_runner.sh 2> /opt/notebooks/cron_logs
